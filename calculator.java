@@ -26,6 +26,7 @@ import java.util.Scanner;
            choice = scan.next().charAt(0);
            switch(choice)
             {
+            	/*This part added by user1*/
               case '1' : System.out.print("Enter Two Number : ");
                          a = scan.nextFloat();
                          b = scan.nextFloat();
