@@ -1,3 +1,6 @@
+/*
+author: Ravindra Singh Pawar (MT2018093)
+*/
 import java.util.Scanner;
 
  public class calculator
