@@ -1,3 +1,10 @@
+/*
+author: Ravindra Singh Pawar (MT2018093)
+*/
+
+
+/****************Changes made by Saga2149*********************/
+/****************Date: 17/01/2019 ****************************/
 import java.util.Scanner;
 
  public class calculator
@@ -20,12 +27,15 @@ import java.util.Scanner;
            choice = scan.next().charAt(0);
            switch(choice)
             {
+            	/*This part added by user1*/
               case '1' : System.out.print("Enter Two Number : ");
                          a = scan.nextFloat();
                          b = scan.nextFloat();
                          res = a + b;
                          System.out.print("Result = " + res);
-	                 break;															                       
+	                 break;	
+
+	                 /*This is by user2*/														                       
 	      case '2' : System.out.print("Enter Two Number : ");
 	                 a = scan.nextFloat();
 	                 b = scan.nextFloat();
